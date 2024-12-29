@@ -10,12 +10,17 @@ collection=db["student"]
 # {"name":"Nidhii","age":19,"grade":"O"}])
 
 #read
-result=collection.find({"grade":"O"})
-for i in result:
-    print(i)
+# result=collection.find({"grade":"O"})
+# for i in result:
+#     print(i)
 
 #update
-collection.update_one({"name":"Nidhi"},{"$set":{"age":20}})
+#collection.update_one({"name":"Nidhi"},{"$set":{"age":20}})
 
 #delete
-collection.delete_many({"grade":"O"})
+#collection.delete_many({"grade":"O"})
+
+#querying
+results= collection.find({"age":{"$gt":18}})
+for i in results:
+    print(i)
