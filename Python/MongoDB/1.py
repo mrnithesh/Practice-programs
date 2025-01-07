@@ -21,6 +21,8 @@ collection=db["student"]
 #collection.delete_many({"grade":"O"})
 
 #querying
-results= collection.find({"age":{"$gt":18}})
+# results= collection.find({"age":{"$gt":18}})
+results=collection.find().sort("age",-1).limit(1)
 for i in results:
     print(i)
+
