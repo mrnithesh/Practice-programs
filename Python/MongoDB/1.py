@@ -22,11 +22,15 @@ collection=db["student"]
 
 #querying
 # results= collection.find({"age":{"$gt":18}})
-results=collection.find().sort("age",-1).limit(1)
-for i in results:
-    print(i)
+# results=collection.find().sort("age",-1).limit(1)
+# for i in results:
+#     print(i)
 
-count=collection.count_documents({})
-print(count)
-distinct_count=collection.distinct("name")
-print(distinct_count)
+# count=collection.count_documents({})
+# print(count)
+
+#distinct
+# distinct_count=collection.distinct("name")
+# print(distinct_count)
+
+collection.update_many({"grade":"O"},{"$set":{"passed":True}})
