@@ -4,9 +4,15 @@ public class prac1 {
     public static void main(String [] args){
         Scanner S = new Scanner(System.in);
         System.out.println("Hello world!");
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a : ");
         int a = S.nextInt();
-        System.out.println(a*2);
+        System.out.println("Enter b :");
+        int b = S.nextInt();
+        b= a+b;
+        a=b-a;
+        b=b-a;
+        System.out.println("Value of a :" + a);
+        System.out.println("Value of b :" + b);
 
     }
 
