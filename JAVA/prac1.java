@@ -16,9 +16,14 @@ public class prac1 {
         */
         // System.out.println("The area of the rectangle is :" + a*b);
         // System.out.println("The perimeter of the rectangle is :" + 2*(a+b) );
-        float farenheit = (a * 9.0f/5.0f)+32;
-        System.out.println("Farenheit is equal to :"+ farenheit);
-
+        // float farenheit = (a * 9.0f/5.0f)+32;
+        // System.out.println("Farenheit is equal to :"+ farenheit);
+        if (a%2==0){
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
     }
 
 }
