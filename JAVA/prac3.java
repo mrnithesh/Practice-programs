@@ -2,13 +2,16 @@ import java.util.Scanner;
 
 public class prac3{
     public static void main(String [] args){
-        int result = 0;
-        for (int i = 0; i <= 100; i++){
-            if (i%2==0){
-                result+=i;
-            }
-        }
-        System.out.println(result);
+        // int result = 0;
+
+        // System.out.println(result);
+
+
+        // for (int i = 0; i <= 100; i++){
+        //     if (i%2==0){
+        //         result+=i;
+        //     }
+        // }
         // int i=0;
         // while (i<=100){
         //     System.out.println(i);
