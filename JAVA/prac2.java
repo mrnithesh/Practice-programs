@@ -31,6 +31,7 @@ public class prac2{
                 System.out.println("Invalid choice");
                 break;
         }
+        s.close();
 
         // System.out.println("Enter C :");
         // int c = s.nextInt();
