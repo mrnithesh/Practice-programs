@@ -17,12 +17,12 @@ public class prac3{
         //     System.out.println(i);
         //     i++;
         // }
-        // Scanner s= new Scanner(System.in);
-        // System.out.println("Enter a number");
-        // int a= s.nextInt();
-        // for (int i=0; i<=20;i++){
-        //     System.out.println(i +"*"+a + "=" + (i*a));
-        // }
+        Scanner s= new Scanner(System.in);
+        System.out.println("Enter a number");
+        int a= s.nextInt();
+        for (int i=0; i<=20;i++){
+            System.out.println(i +"*"+a + "=" + (i*a));
+        }
 
 
     }
