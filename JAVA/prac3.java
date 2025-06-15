@@ -23,7 +23,7 @@ public class prac3{
         for (int i=0; i<=20;i++){
             System.out.println(i +"*"+a + "=" + (i*a));
         }
-
+        s.close();
 
     }
 }

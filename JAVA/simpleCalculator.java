@@ -41,5 +41,6 @@ public class simpleCalculator {
                 System.out.println("Enter a valid choice");
                 break;
         }
+        sc.close();
     }
 }
