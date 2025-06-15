@@ -6,7 +6,11 @@ public class helloWorld{
         char c = 'A';
         double d = 3.14;
         String e = "Something";
-        boolean isJavaFun = false;
-        
+        boolean isJavaFun = true;
+
+        if (isJavaFun){
+            System.out.println(e);
+            System.out.println("another output here " + a*b);
+        }
     }
 }
