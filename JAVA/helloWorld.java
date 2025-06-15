@@ -12,5 +12,9 @@ public class helloWorld{
             System.out.println(e);
             System.out.println("another output here " + a*b);
         }
+        int [] nums = {10,20,43,55,69};
+        for (int i=0;i<nums.length;i++){
+            System.out.println(nums[i]);
+        }
     }
 }
