@@ -6,4 +6,4 @@ def is_palindrome(a):
         a//=10
     return (rev==original)
 
-print(is_palindrome(121))
+print(is_palindrome(21))
